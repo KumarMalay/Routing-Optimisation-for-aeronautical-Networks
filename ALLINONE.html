@@ -14583,7 +14583,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14610,34 +14610,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>  Flight No.     Timestamp  Altitude   Latitude  Longitude
-0      AA101  1.530270e+09   38975.0  53.936440 -14.502541
-1      AA151  1.530270e+09   35975.0  49.129004  -4.044335
-2      AA198  1.530270e+09       0.0  39.792819 -72.778591
-3      AA204  1.530270e+09       0.0  40.222121 -73.325611
-4      AA209  1.530270e+09   37975.0  60.809745 -29.756008
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14649,7 +14621,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14669,36 +14641,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>   Mode k Mode Color  Switching Threshold(km)  transmission Rate
-0       1        Red                   500.00             31.895
-1       2     Orange                   400.00             43.505
-2       3     Yellow                   300.00             52.857
-3       4      Green                   190.00             63.970
-4       5       Blue                    90.00             77.071
-5       6       Pink                    35.00             93.854
-6       7     Purple                     5.56            119.130
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div>
@@ -14894,25 +14836,25 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
         <span class="k">else</span><span class="p">:</span>
             <span class="n">ground_stations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
         
-        <span class="k">if</span> <span class="n">flight_no</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'BA'</span><span class="p">):</span>
-            <span class="n">airplanes</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">ground_stations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
+        <span class="c1"># if flight_no.startswith('BA'):</span>
+        <span class="c1">#     airplanes.append((flight_no, x, y, z))</span>
+        <span class="c1"># else:</span>
+        <span class="c1">#     ground_stations.append((flight_no, x, y, z))</span>
         
-        <span class="k">if</span> <span class="n">flight_no</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'DA'</span><span class="p">):</span>
-            <span class="n">airplanes</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">ground_stations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
+        <span class="c1"># if flight_no.startswith('DA'):</span>
+        <span class="c1">#     airplanes.append((flight_no, x, y, z))</span>
+        <span class="c1"># else:</span>
+        <span class="c1">#     ground_stations.append((flight_no, x, y, z))</span>
 
-        <span class="k">if</span> <span class="n">flight_no</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'LH'</span><span class="p">):</span>
-            <span class="n">airplanes</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">ground_stations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
+        <span class="c1"># if flight_no.startswith('LH'):</span>
+        <span class="c1">#     airplanes.append((flight_no, x, y, z))</span>
+        <span class="c1"># else:</span>
+        <span class="c1">#     ground_stations.append((flight_no, x, y, z))</span>
 
-        <span class="k">if</span> <span class="n">flight_no</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'UA'</span><span class="p">):</span>
-            <span class="n">airplanes</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">ground_stations</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">flight_no</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
+        <span class="c1"># if flight_no.startswith('UA'):</span>
+        <span class="c1">#     airplanes.append((flight_no, x, y, z))</span>
+        <span class="c1"># else:</span>
+        <span class="c1">#     ground_stations.append((flight_no, x, y, z))</span>
 </pre></div>
 
      </div>
@@ -14920,7 +14862,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -14948,6 +14890,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
             <span class="k">if</span> <span class="n">transmission_rate</span> <span class="o">&gt;</span> <span class="n">max_data_rate</span><span class="p">:</span>
                 <span class="n">max_data_rate</span> <span class="o">=</span> <span class="n">transmission_rate</span>
                 <span class="n">max_data_rate_path</span> <span class="o">=</span> <span class="p">[(</span><span class="n">ground_station_id</span><span class="p">,</span> <span class="n">max_data_rate</span><span class="p">)]</span>
+            <span class="k">elif</span> <span class="n">transmission_rate</span> <span class="o">==</span> <span class="n">max_data_rate</span><span class="p">:</span>
+                <span class="n">max_data_rate_path</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">ground_station_id</span><span class="p">,</span> <span class="n">max_data_rate</span><span class="p">))</span>
+
 
         <span class="n">routing_paths</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'Airplane'</span><span class="p">:</span> <span class="n">airplane_id</span><span class="p">,</span> <span class="s1">'Routing Path'</span><span class="p">:</span> <span class="n">max_data_rate_path</span><span class="p">,</span> <span class="s1">'End-to-End Data Rate'</span><span class="p">:</span> <span class="n">max_data_rate</span><span class="p">})</span>
 
@@ -14955,7 +14900,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <span class="c1"># Call the function to find the routing paths with maximum data transmission rate</span>
 <span class="n">routing_paths</span> <span class="o">=</span> <span class="n">find_max_data_rate_routing_paths</span><span class="p">(</span><span class="n">airplanes</span><span class="p">,</span> <span class="n">ground_stations</span><span class="p">)</span>
+<span class="n">all_routing_paths</span> <span class="o">=</span> <span class="n">find_max_data_rate_routing_paths</span><span class="p">(</span><span class="n">airplanes</span><span class="p">,</span> <span class="n">ground_stations</span><span class="p">)</span>
 
+
+<span class="c1"># Print and store the routing paths in a text file</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'routing_paths.txt'</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">all_routing_paths</span><span class="p">:</span>
+        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+        
 <span class="c1"># Print the routing paths and their respective data transmission rates</span>
 <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">routing_paths</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
@@ -14966,127 +14919,71 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;Airplane&#39;: &#39;AA101&#39;, &#39;Routing Path&#39;: [(&#39;AA151&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA151&#39;, &#39;Routing Path&#39;: [(&#39;AA71&#39;, 43.505)], &#39;End-to-End Data Rate&#39;: 43.505}
-{&#39;Airplane&#39;: &#39;AA198&#39;, &#39;Routing Path&#39;: [(&#39;LH421&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;AA204&#39;, &#39;Routing Path&#39;: [(&#39;BA174&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;AA209&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA221&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA25&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA258&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA291&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA37&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA45&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA47&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA51&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA57&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA67&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA705&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA71&#39;, &#39;Routing Path&#39;: [(&#39;AA151&#39;, 43.505)], &#39;End-to-End Data Rate&#39;: 43.505}
-{&#39;Airplane&#39;: &#39;AA717&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA723&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA725&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA731&#39;, &#39;Routing Path&#39;: [(&#39;BA177&#39;, 119.13)], &#39;End-to-End Data Rate&#39;: 119.13}
-{&#39;Airplane&#39;: &#39;AA749&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA751&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA755&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA786&#39;, &#39;Routing Path&#39;: [(&#39;DL118&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;AA787&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;AA96&#39;, &#39;Routing Path&#39;: [(&#39;DL4&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;AA99&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA117&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA173&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA174&#39;, &#39;Routing Path&#39;: [(&#39;AA204&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;BA175&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA177&#39;, &#39;Routing Path&#39;: [(&#39;AA731&#39;, 119.13)], &#39;End-to-End Data Rate&#39;: 119.13}
-{&#39;Airplane&#39;: &#39;BA179&#39;, &#39;Routing Path&#39;: [(&#39;AA731&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;BA185&#39;, &#39;Routing Path&#39;: [(&#39;BA207&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;BA191&#39;, &#39;Routing Path&#39;: [(&#39;BA49&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;BA2037&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA207&#39;, &#39;Routing Path&#39;: [(&#39;BA185&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;BA212&#39;, &#39;Routing Path&#39;: [(&#39;AA786&#39;, 63.97)], &#39;End-to-End Data Rate&#39;: 63.97}
-{&#39;Airplane&#39;: &#39;BA2167&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA217&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA239&#39;, &#39;Routing Path&#39;: [(&#39;BA179&#39;, 63.97)], &#39;End-to-End Data Rate&#39;: 63.97}
-{&#39;Airplane&#39;: &#39;BA244&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA249&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA250&#39;, &#39;Routing Path&#39;: [(&#39;AA96&#39;, 63.97)], &#39;End-to-End Data Rate&#39;: 63.97}
-{&#39;Airplane&#39;: &#39;BA251&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA283&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA285&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;BA287&#39;, &#39;Routing Path&#39;: [(&#39;BA239&#39;, 43.505)], &#39;End-to-End Data Rate&#39;: 43.505}
-{&#39;Airplane&#39;: &#39;BA295&#39;, &#39;Routing Path&#39;: [(&#39;DL259&#39;, 43.505)], &#39;End-to-End Data Rate&#39;: 43.505}
-{&#39;Airplane&#39;: &#39;BA49&#39;, &#39;Routing Path&#39;: [(&#39;BA191&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;BA53&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH400&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH416&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH421&#39;, &#39;Routing Path&#39;: [(&#39;AA198&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;LH423&#39;, &#39;Routing Path&#39;: [(&#39;DL154&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;LH438&#39;, &#39;Routing Path&#39;: [(&#39;BA207&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;LH440&#39;, &#39;Routing Path&#39;: [(&#39;LH421&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;LH442&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH444&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH454&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH456&#39;, &#39;Routing Path&#39;: [(&#39;DL17&#39;, 43.505)], &#39;End-to-End Data Rate&#39;: 43.505}
-{&#39;Airplane&#39;: &#39;LH462&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH475&#39;, &#39;Routing Path&#39;: [(&#39;UA900&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;LH490&#39;, &#39;Routing Path&#39;: [(&#39;UA141&#39;, 63.97)], &#39;End-to-End Data Rate&#39;: 63.97}
-{&#39;Airplane&#39;: &#39;LH501&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH519&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH8164&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH8175&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH8189&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;LH8250&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA119&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA121&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA123&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA135&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA141&#39;, &#39;Routing Path&#39;: [(&#39;DL118&#39;, 63.97)], &#39;End-to-End Data Rate&#39;: 63.97}
-{&#39;Airplane&#39;: &#39;UA15&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA160&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA162&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA18&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA21&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA22&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA24&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA26&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA41&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA43&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA45&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA56&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA65&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA71&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA865&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA900&#39;, &#39;Routing Path&#39;: [(&#39;AA96&#39;, 77.071)], &#39;End-to-End Data Rate&#39;: 77.071}
-{&#39;Airplane&#39;: &#39;UA945&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA951&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA957&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA961&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA963&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA971&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA973&#39;, &#39;Routing Path&#39;: [(&#39;AA204&#39;, 93.854)], &#39;End-to-End Data Rate&#39;: 93.854}
-{&#39;Airplane&#39;: &#39;UA975&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-{&#39;Airplane&#39;: &#39;UA986&#39;, &#39;Routing Path&#39;: [(&#39;AA101&#39;, 31.895)], &#39;End-to-End Data Rate&#39;: 31.895}
-</pre>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Multiple-objective-optimisation">Multiple objective optimisation<a class="anchor-link" href="#Multiple-objective-optimisation">&#182;</a></h3>
 </div>
 </div>
-
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">find_optimal_routing_paths</span><span class="p">(</span><span class="n">airplanes</span><span class="p">,</span> <span class="n">ground_stations</span><span class="p">):</span>
+    <span class="n">routing_paths</span> <span class="o">=</span> <span class="p">[]</span>
 
+    <span class="k">for</span> <span class="n">airplane</span> <span class="ow">in</span> <span class="n">airplanes</span><span class="p">:</span>
+        <span class="n">airplane_id</span><span class="p">,</span> <span class="n">x_airplane</span><span class="p">,</span> <span class="n">y_airplane</span><span class="p">,</span> <span class="n">z_airplane</span> <span class="o">=</span> <span class="n">airplane</span>
+        <span class="n">optimal_path</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">max_data_rate</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="n">min_latency</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="s1">'inf'</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">ground_station</span> <span class="ow">in</span> <span class="n">ground_stations</span><span class="p">:</span>
+            <span class="n">ground_station_id</span><span class="p">,</span> <span class="n">x_gs</span><span class="p">,</span> <span class="n">y_gs</span><span class="p">,</span> <span class="n">z_gs</span> <span class="o">=</span> <span class="n">ground_station</span>
+
+            <span class="c1"># Calculate the distance between the airplane and ground station</span>
+            <span class="n">distance</span> <span class="o">=</span> <span class="n">calculate_distance</span><span class="p">(</span><span class="n">x_airplane</span><span class="p">,</span> <span class="n">y_airplane</span><span class="p">,</span> <span class="n">z_airplane</span><span class="p">,</span> <span class="n">x_gs</span><span class="p">,</span> <span class="n">y_gs</span><span class="p">,</span> <span class="n">z_gs</span><span class="p">)</span>
+
+            <span class="c1"># Calculate the data transmission rate for the link</span>
+            <span class="n">transmission_rate</span> <span class="o">=</span> <span class="n">calculate_transmission_rate</span><span class="p">(</span><span class="n">distance</span><span class="p">)</span>
+
+            <span class="c1"># Calculate the latency for the link</span>
+            <span class="n">latency</span> <span class="o">=</span> <span class="n">distance</span> <span class="o">/</span> <span class="n">transmission_rate</span>
+
+            <span class="k">if</span> <span class="n">transmission_rate</span> <span class="o">&gt;</span> <span class="n">max_data_rate</span><span class="p">:</span>
+                <span class="n">max_data_rate</span> <span class="o">=</span> <span class="n">transmission_rate</span>
+                <span class="n">min_latency</span> <span class="o">=</span> <span class="n">latency</span>
+                <span class="n">optimal_path</span> <span class="o">=</span> <span class="p">[(</span><span class="n">ground_station_id</span><span class="p">,</span> <span class="n">max_data_rate</span><span class="p">,</span> <span class="n">min_latency</span><span class="p">)]</span>
+            <span class="k">elif</span> <span class="n">transmission_rate</span> <span class="o">==</span> <span class="n">max_data_rate</span> <span class="ow">and</span> <span class="n">latency</span> <span class="o">&lt;</span> <span class="n">min_latency</span><span class="p">:</span>
+                <span class="n">min_latency</span> <span class="o">=</span> <span class="n">latency</span>
+                <span class="n">optimal_path</span> <span class="o">=</span> <span class="p">[(</span><span class="n">ground_station_id</span><span class="p">,</span> <span class="n">max_data_rate</span><span class="p">,</span> <span class="n">min_latency</span><span class="p">)]</span>
+
+        <span class="n">routing_paths</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">'Airplane'</span><span class="p">:</span> <span class="n">airplane_id</span><span class="p">,</span> <span class="s1">'Optimal Path'</span><span class="p">:</span> <span class="n">optimal_path</span><span class="p">,</span> <span class="s1">'End-to-End Data Rate'</span><span class="p">:</span> <span class="n">max_data_rate</span><span class="p">,</span> <span class="s1">'End-to-End Latency'</span><span class="p">:</span> <span class="n">min_latency</span><span class="p">})</span>
+
+    <span class="k">return</span> <span class="n">routing_paths</span>
+
+<span class="c1"># Call the function to find the optimal routing paths with maximum data transmission rate and minimum latency</span>
+<span class="n">optimal_routing_paths</span> <span class="o">=</span> <span class="n">find_optimal_routing_paths</span><span class="p">(</span><span class="n">airplanes</span><span class="p">,</span> <span class="n">ground_stations</span><span class="p">)</span>
+
+<span class="c1"># Print and store the optimal routing paths in a text file</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'optimal_routing_paths.txt'</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">optimal_routing_paths</span><span class="p">:</span>
+        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'</span><span class="se">\n</span><span class="s1">'</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
