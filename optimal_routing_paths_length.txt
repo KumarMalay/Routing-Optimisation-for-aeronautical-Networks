@@ -1,1 +1,0 @@
-{'Airplane': 'AA101', 'Optimal Path': [('UA26', 31.895, 53.10128671234829)], 'End-to-End Data Rate': 31.895, 'End-to-End Latency': 53.10128671234829}
