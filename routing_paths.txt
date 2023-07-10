@@ -1,808 +1,707 @@
-{'Airplane': 'AA101', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA101', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA101: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA101 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA101 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA151', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA151', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA151: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA151 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA151 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA198', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA198', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA198: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA198 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA198 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA204', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA204', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA204: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA204 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA204 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA209', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA209', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA209: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA209 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA209 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA221', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA221', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA221: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA221 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA221 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA25', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA25', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA25: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA25 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA25 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA258', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA258', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA258: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA258 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA258 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA291', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA291', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA291: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA291 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA291 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA37', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA37', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA37: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA37 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA37 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA45', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA45', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA45: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA45 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA45 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA47', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA47', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA47: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA47 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA47 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA51', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA51', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA51: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA51 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA51 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA57', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA57', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA57: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA57 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA57 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA67', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA67', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA67: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA67 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA67 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA705', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA705', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA705: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA705 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA705 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA71', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA71', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA71: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA71 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA71 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA717', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA717', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA717: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA717 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA717 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA723', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA723', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA723: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA723 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA723 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA725', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA725', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA725: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA725 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA725 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA731', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA731', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA731: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA731 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA731 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA749', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA749', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA749: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA749 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA749 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA751', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA751', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA751: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA751 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA751 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA755', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA755', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA755: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA755 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA755 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA786', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA786', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA786: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA786 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA786 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA787', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA787', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA787: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA787 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA787 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA96', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA96', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA96: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA96 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA96 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'AA99', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'AA99', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 AA99: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between AA99 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between AA99 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA117', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA117', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA117: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA117 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA117 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA173', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA173', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA173: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA173 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA173 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA174', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA174', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA174: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA174 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA174 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA175', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA175', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA175: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA175 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA175 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA177', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA177', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA177: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA177 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA177 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA179', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA179', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA179: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA179 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA179 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA185', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA185', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA185: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA185 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA185 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA191', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA191', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA191: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA191 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA191 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA2037', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA2037', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA2037: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA2037 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA2037 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA207', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA207', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA207: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA207 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA207 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA212', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA212', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA212: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA212 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA212 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA2167', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA2167', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA2167: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA2167 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA2167 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA217', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA217', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA217: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA217 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA217 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA239', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA239', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA239: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA239 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA239 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA244', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA244', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA244: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA244 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA244 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA249', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA249', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA249: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA249 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA249 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA250', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA250', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA250: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA250 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA250 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA251', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA251', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA251: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA251 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA251 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA283', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA283', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA283: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA283 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA283 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA285', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA285', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA285: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA285 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA285 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA287', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA287', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA287: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA287 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA287 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA295', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA295', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA295: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA295 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA295 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA49', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA49', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA49: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA49 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA49 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'BA53', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'BA53', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 BA53: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between BA53 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between BA53 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH400', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH400', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH400: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH400 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH400 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH416', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH416', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH416: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH416 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH416 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH421', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH421', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH421: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH421 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH421 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH423', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH423', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH423: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH423 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH423 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH438', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH438', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH438: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH438 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH438 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH440', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH440', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH440: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH440 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH440 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH442', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH442', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH442: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH442 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH442 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH444', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH444', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH444: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH444 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH444 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH454', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH454', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH454: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH454 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH454 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH456', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH456', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH456: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH456 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH456 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH462', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH462', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH462: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH462 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH462 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH475', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH475', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH475: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH475 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH475 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH490', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH490', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH490: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH490 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH490 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH501', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH501', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH501: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH501 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH501 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH519', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH519', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH519: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH519 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH519 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH8164', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH8164', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH8164: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH8164 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH8164 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH8175', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH8175', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH8175: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH8175 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH8175 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH8189', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH8189', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH8189: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH8189 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH8189 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'LH8250', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'LH8250', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 LH8250: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between LH8250 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between LH8250 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA119', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA119', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA119: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA119 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA119 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA121', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA121', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA121: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA121 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA121 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA123', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA123', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA123: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA123 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA123 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA135', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA135', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA135: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA135 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA135 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA141', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA141', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA141: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA141 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA141 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA15', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA15', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA15: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA15 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA15 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA160', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA160', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA160: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA160 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA160 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA162', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA162', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA162: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA162 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA162 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA18', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA18', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA18: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA18 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA18 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA21', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA21', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA21: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA21 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA21 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA22', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA22', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA22: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA22 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA22 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA24', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA24', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA24: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA24 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA24 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA26', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA26', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA26: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA26 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA26 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA41', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA41', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA41: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA41 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA41 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA43', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA43', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA43: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA43 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA43 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA45', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA45', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA45: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA45 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA45 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA56', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA56', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA56: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA56 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA56 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA65', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA65', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA65: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA65 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA65 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA71', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA71', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA71: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA71 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA71 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA865', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA865', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA865: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA865 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA865 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA900', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA900', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA900: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA900 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA900 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA945', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA945', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA945: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA945 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA945 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA951', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA951', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA951: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA951 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA951 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA957', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA957', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA957: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA957 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA957 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA961', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA961', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA961: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA961 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA961 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA963', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA963', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA963: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA963 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA963 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA971', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA971', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA971: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA971 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA971 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA973', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA973', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA973: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA973 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA973 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA975', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA975', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA975: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA975 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA975 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
-{'Airplane': 'UA986', 'Routing Path': [('BA287', 43.505), ('BA239', 43.505)], 'End-to-End Data Rate': 43.505}
+{'Airplane': 'UA986', 'Routing Path': [('UA900', 63.97), ('DL422', 63.97)], 'End-to-End Data Rate': 63.97}
 
-An example journey is given below (Here is just an example, not a real optimized routing path):
 UA986: is the source airplane
-(BA287, 43.505): The next relay node is BA287, the data transmission rate between UA986 and BA287 is 43.505 Mbps.
-(BA239, 43.505): The next relay node is BA239, the data transmission rate between BA287 and BA239 is 43.505 Mbps.
-End-to-end data rate: '43.505': the final end-to-end data rate is 43.505 Mbps.
+(UA900, 63.97): The next relay node is UA900, the data transmission rate between UA986 and UA900 is 63.97 Mbps.
+(DL422, 63.97): The next relay node is DL422, the data transmission rate between UA900 and DL422 is 63.97 Mbps.
+End-to-end data rate: '63.97': the final end-to-end data rate is 63.97 Mbps.
 
