@@ -1,99 +1,812 @@
-{'Airplane': 'AA101', 'Routing Path': [('DL418', 31.895), ('AA291', 31.895), ('DL418', 31.895), ('UA45', 31.895), ('DL400', 31.895), ('DL229', 31.895), ('DL400', 31.895), ('DL209', 31.895), ('DL400', 31.895), ('BA173', 31.895), ('DL400', 31.895), ('AA57', 31.895), ('DL400', 31.895), ('DL97', 31.895), ('DL400', 31.895), ('BA2167', 31.895), ('DL400', 31.895), ('UA973', 31.895), ('DL400', 31.895), ('AA291', 31.895), ('DL400', 31.895), ('UA45', 31.895), ('DL229', 31.895), ('DL209', 31.895), ('DL229', 31.895), ('BA173', 31.895), ('DL229', 31.895), ('AA57', 31.895), ('DL229', 31.895), ('DL97', 31.895), ('DL229', 31.895), ('BA2167', 31.895), ('DL229', 31.895), ('UA973', 31.895), ('DL229', 31.895), ('AA291', 31.895), ('DL229', 31.895), ('UA45', 31.895), ('DL209', 31.895), ('BA173', 31.895), ('DL209', 31.895), ('AA57', 31.895), ('DL209', 31.895), ('DL97', 31.895), ('DL209', 31.895), ('BA2167', 31.895), ('DL209', 31.895), ('UA973', 31.895), ('DL209', 31.895), ('AA291', 31.895), ('DL209', 31.895), ('UA45', 31.895), ('BA173', 31.895), ('AA57', 31.895), ('BA173', 31.895), ('DL97', 31.895), ('BA173', 31.895), ('BA2167', 31.895), ('BA173', 31.895), ('UA973', 31.895), ('BA173', 31.895), ('AA291', 31.895), ('BA173', 31.895), ('UA45', 31.895), ('AA57', 31.895), ('DL97', 31.895), ('AA57', 31.895), ('BA2167', 31.895), ('AA57', 31.895), ('UA973', 31.895), ('AA57', 31.895), ('AA291', 31.895), ('AA57', 31.895), ('UA45', 31.895), ('DL97', 31.895), ('BA2167', 31.895), ('DL97', 31.895), ('UA973', 31.895), ('DL97', 31.895), ('AA291', 31.895), ('DL97', 31.895), ('UA45', 31.895), ('BA2167', 31.895), ('UA973', 31.895), ('BA2167', 31.895), ('AA291', 31.895), ('BA2167', 31.895), ('UA45', 31.895), ('UA973', 31.895), ('AA291', 31.895), ('UA973', 31.895), ('UA45', 31.895), ('AA291', 31.895), ('UA45', 31.895)], 'End-to-End Data Rate': 31.895}
+{'Airplane': 'AA101', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
 
 AA101: is the source airplane
-(DL418, 31.895): The next relay node is DL418, the data transmission rate between AA101 and DL418 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between DL418 and AA291 is 31.895 Mbps.
-(DL418, 31.895): The next relay node is DL418, the data transmission rate between AA291 and DL418 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between DL418 and UA45 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between UA45 and DL400 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between DL400 and DL229 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between DL229 and DL400 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between DL400 and DL209 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between DL209 and DL400 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between DL400 and BA173 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between BA173 and DL400 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between DL400 and AA57 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between AA57 and DL400 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between DL400 and DL97 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between DL97 and DL400 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between DL400 and BA2167 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between BA2167 and DL400 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between DL400 and UA973 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between UA973 and DL400 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between DL400 and AA291 is 31.895 Mbps.
-(DL400, 31.895): The next relay node is DL400, the data transmission rate between AA291 and DL400 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between DL400 and UA45 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between UA45 and DL229 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between DL229 and DL209 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between DL209 and DL229 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between DL229 and BA173 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between BA173 and DL229 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between DL229 and AA57 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between AA57 and DL229 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between DL229 and DL97 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between DL97 and DL229 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between DL229 and BA2167 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between BA2167 and DL229 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between DL229 and UA973 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between UA973 and DL229 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between DL229 and AA291 is 31.895 Mbps.
-(DL229, 31.895): The next relay node is DL229, the data transmission rate between AA291 and DL229 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between DL229 and UA45 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between UA45 and DL209 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between DL209 and BA173 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between BA173 and DL209 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between DL209 and AA57 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between AA57 and DL209 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between DL209 and DL97 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between DL97 and DL209 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between DL209 and BA2167 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between BA2167 and DL209 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between DL209 and UA973 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between UA973 and DL209 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between DL209 and AA291 is 31.895 Mbps.
-(DL209, 31.895): The next relay node is DL209, the data transmission rate between AA291 and DL209 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between DL209 and UA45 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between UA45 and BA173 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between BA173 and AA57 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between AA57 and BA173 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between BA173 and DL97 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between DL97 and BA173 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between BA173 and BA2167 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between BA2167 and BA173 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between BA173 and UA973 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between UA973 and BA173 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between BA173 and AA291 is 31.895 Mbps.
-(BA173, 31.895): The next relay node is BA173, the data transmission rate between AA291 and BA173 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between BA173 and UA45 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between UA45 and AA57 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between AA57 and DL97 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between DL97 and AA57 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between AA57 and BA2167 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between BA2167 and AA57 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between AA57 and UA973 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between UA973 and AA57 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between AA57 and AA291 is 31.895 Mbps.
-(AA57, 31.895): The next relay node is AA57, the data transmission rate between AA291 and AA57 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between AA57 and UA45 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between UA45 and DL97 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between DL97 and BA2167 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between BA2167 and DL97 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between DL97 and UA973 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between UA973 and DL97 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between DL97 and AA291 is 31.895 Mbps.
-(DL97, 31.895): The next relay node is DL97, the data transmission rate between AA291 and DL97 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between DL97 and UA45 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between UA45 and BA2167 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between BA2167 and UA973 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between UA973 and BA2167 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between BA2167 and AA291 is 31.895 Mbps.
-(BA2167, 31.895): The next relay node is BA2167, the data transmission rate between AA291 and BA2167 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between BA2167 and UA45 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between UA45 and UA973 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between UA973 and AA291 is 31.895 Mbps.
-(UA973, 31.895): The next relay node is UA973, the data transmission rate between AA291 and UA973 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between UA973 and UA45 is 31.895 Mbps.
-(AA291, 31.895): The next relay node is AA291, the data transmission rate between UA45 and AA291 is 31.895 Mbps.
-(UA45, 31.895): The next relay node is UA45, the data transmission rate between AA291 and UA45 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA101 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA151', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA151: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA151 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA198', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA198: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA198 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA204', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA204: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA204 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA209', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA209: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA209 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA221', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA221: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA221 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA25', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA25: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA25 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA258', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA258: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA258 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA291', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA291: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA291 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA37', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA37: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA37 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA45', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA45: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA45 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA47', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA47: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA47 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA51', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA51: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA51 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA57', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA57: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA57 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA67', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA67: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA67 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA705', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA705: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA705 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA71', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA71: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA71 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA717', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA717: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA717 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA723', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA723: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA723 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA725', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA725: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA725 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA731', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA731: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA731 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA749', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA749: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA749 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA751', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA751: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA751 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA755', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA755: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA755 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA786', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA786: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA786 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA787', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA787: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA787 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA96', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA96: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA96 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
+End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
+
+{'Airplane': 'AA99', 'Routing Path': [('LH456', 31.895), ('LH421', 31.895), ('LH456', 31.895), ('LH454', 31.895), ('UA56', 31.895), ('LH400', 31.895), ('UA56', 31.895), ('DL17', 31.895), ('UA56', 31.895), ('LH421', 31.895), ('UA56', 31.895), ('LH454', 31.895), ('LH400', 31.895), ('DL17', 31.895), ('LH400', 31.895), ('LH421', 31.895), ('LH400', 31.895), ('LH454', 31.895), ('DL17', 31.895), ('LH421', 31.895), ('DL17', 31.895), ('LH454', 31.895), ('LH421', 31.895), ('LH454', 31.895)], 'End-to-End Data Rate': 31.895}
+
+AA99: is the source airplane
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between AA99 and LH456 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH456 and LH421 is 31.895 Mbps.
+(LH456, 31.895): The next relay node is LH456, the data transmission rate between LH421 and LH456 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH456 and LH454 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH454 and UA56 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between UA56 and LH400 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH400 and UA56 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between UA56 and DL17 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between DL17 and UA56 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between UA56 and LH421 is 31.895 Mbps.
+(UA56, 31.895): The next relay node is UA56, the data transmission rate between LH421 and UA56 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between UA56 and LH454 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH454 and LH400 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH400 and DL17 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between DL17 and LH400 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH400 and LH421 is 31.895 Mbps.
+(LH400, 31.895): The next relay node is LH400, the data transmission rate between LH421 and LH400 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH400 and LH454 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH454 and DL17 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between DL17 and LH421 is 31.895 Mbps.
+(DL17, 31.895): The next relay node is DL17, the data transmission rate between LH421 and DL17 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between DL17 and LH454 is 31.895 Mbps.
+(LH421, 31.895): The next relay node is LH421, the data transmission rate between LH454 and LH421 is 31.895 Mbps.
+(LH454, 31.895): The next relay node is LH454, the data transmission rate between LH421 and LH454 is 31.895 Mbps.
 End-to-end data rate: '31.895': the final end-to-end data rate is 31.895 Mbps.
 
